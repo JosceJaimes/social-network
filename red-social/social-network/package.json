@@ -2,7 +2,7 @@
   "name": "social-network",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JosceJaimes.github.io/socialnetwork",
+  "homepage": "https://JosceJaimes.github.io/social-network",
   "dependencies": {
     "deploy": "^1.0.3",
     "firebase": "^5.5.1",
