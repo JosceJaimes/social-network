@@ -1,0 +1,29 @@
+{
+  "name": "social-network",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://JosceJaimes.github.io/socialnetwork",
+  "dependencies": {
+    "deploy": "^1.0.3",
+    "firebase": "^5.5.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-firebase": "^2.2.8",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "sed": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.1",
+    "gh-pages": "^2.0.0"
+  }
+}
